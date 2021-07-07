@@ -1,4 +1,7 @@
 import Foundation
 
-print("Hello, World123123123123!")
+homework_1() // Урок 1. Задание 1
+
+
+
 
