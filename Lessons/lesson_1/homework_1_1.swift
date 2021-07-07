@@ -1,7 +1,7 @@
 import Foundation
 
 
-func homework_1() {
+func homework_1_1() {
     print ("Введите значение a:")
     var field_a = readLine()
     print ("Введите значение b:")
