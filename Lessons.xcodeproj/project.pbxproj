@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C2217A0B2695E3710059B7D8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A0A2695E3710059B7D8 /* main.swift */; };
-		C2217A142695E3AD0059B7D8 /* homework_1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A132695E3AD0059B7D8 /* homework_1_1.swift */; };
 		C2217A182695E5E40059B7D8 /* homework_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A172695E5E40059B7D8 /* homework_2.swift */; };
 		C2217A1C2695EFC60059B7D8 /* homework_1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A1B2695EFC60059B7D8 /* homework_1_2.swift */; };
+		C2217A222695F3C80059B7D8 /* homework_1_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A212695F3C80059B7D8 /* homework_1_3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +31,7 @@
 		C2217A132695E3AD0059B7D8 /* homework_1_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_1_1.swift; sourceTree = "<group>"; };
 		C2217A172695E5E40059B7D8 /* homework_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_2.swift; sourceTree = "<group>"; };
 		C2217A1B2695EFC60059B7D8 /* homework_1_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_1_2.swift; sourceTree = "<group>"; };
+		C2217A212695F3C80059B7D8 /* homework_1_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_1_3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 			children = (
 				C2217A132695E3AD0059B7D8 /* homework_1_1.swift */,
 				C2217A1B2695EFC60059B7D8 /* homework_1_2.swift */,
+				C2217A212695F3C80059B7D8 /* homework_1_3.swift */,
 			);
 			path = lesson_1;
 			sourceTree = "<group>";
@@ -146,8 +148,8 @@
 			files = (
 				C2217A1C2695EFC60059B7D8 /* homework_1_2.swift in Sources */,
 				C2217A0B2695E3710059B7D8 /* main.swift in Sources */,
-				C2217A142695E3AD0059B7D8 /* homework_1_1.swift in Sources */,
 				C2217A182695E5E40059B7D8 /* homework_2.swift in Sources */,
+				C2217A222695F3C80059B7D8 /* homework_1_3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
