@@ -15,7 +15,7 @@ func homework_1_1() {
     var c: Double? = Double(field_c!)
     
     if (a != nil && b != nil && c != nil){
-        print("Полученное квадратное уравнение: (\(a!))*Xˆ2 + (\(b!))*X + (\(c!))")
+        print("Полученное квадратное уравнение: (\(a!))*Xˆ2 + (\(b!))*X + (\(c!)) = 0")
         
         var D = pow(b!, 2.0) - 4*a!*c!
         
