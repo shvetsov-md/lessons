@@ -10,6 +10,7 @@
 		C2217A0B2695E3710059B7D8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A0A2695E3710059B7D8 /* main.swift */; };
 		C2217A182695E5E40059B7D8 /* homework_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A172695E5E40059B7D8 /* homework_2.swift */; };
 		C2217A26269603F80059B7D8 /* homework_1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A132695E3AD0059B7D8 /* homework_1_1.swift */; };
+		C2CADD69269C83A1001A5677 /* test_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CADD68269C83A1001A5677 /* test_1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		C2217A172695E5E40059B7D8 /* homework_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_2.swift; sourceTree = "<group>"; };
 		C2217A1B2695EFC60059B7D8 /* homework_1_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_1_2.swift; sourceTree = "<group>"; };
 		C2217A212695F3C80059B7D8 /* homework_1_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_1_3.swift; sourceTree = "<group>"; };
+		C2CADD68269C83A1001A5677 /* test_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		C2217A092695E3710059B7D8 /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
+				C2CADD67269C836F001A5677 /* test */,
 				C2217A162695E5CC0059B7D8 /* lesson_2 */,
 				C2217A122695E38F0059B7D8 /* lesson_1 */,
 				C2217A0A2695E3710059B7D8 /* main.swift */,
@@ -86,6 +89,14 @@
 				C2217A172695E5E40059B7D8 /* homework_2.swift */,
 			);
 			path = lesson_2;
+			sourceTree = "<group>";
+		};
+		C2CADD67269C836F001A5677 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				C2CADD68269C83A1001A5677 /* test_1.swift */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 				C2217A26269603F80059B7D8 /* homework_1_1.swift in Sources */,
 				C2217A0B2695E3710059B7D8 /* main.swift in Sources */,
 				C2217A182695E5E40059B7D8 /* homework_2.swift in Sources */,
+				C2CADD69269C83A1001A5677 /* test_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
