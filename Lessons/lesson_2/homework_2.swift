@@ -32,7 +32,7 @@ func homework_2_2(chislo: Double) {
 
 
 
-//Задание 3, 4
+//Задание 3
 
 func homework_2_3() -> [Int] {
     var numbers = [Int]()
@@ -86,6 +86,54 @@ func homework_2_5(_ count: Int) -> [Int] {
     return array
 }
 
+
+//Задание 6
+
+func homework_2_6(_ count: Int) {
+    var p = 0
+    var i = 0
+    var array = [Int]()
+    
+    while array.count <= count {
+        if (i > 1) {
+            array.append(i)
+            for j in array {
+                if (i != j) && (i % j == 0) {
+                    array.removeAll(where:{ $0 == i })
+                    
+                }
+            }
+        }
+       i += 1
+    }
+    
+    print("Массив из \(count) чисел, в котором все числа простые: \(array)")
+    
+    p = array.first!
+    
+    var min = p + array.first!
+    
+    repeat {
+        
+        while min <= array.last! {
+            array.removeAll(where:{ $0 == min })
+            
+            min += p
+        }
+        
+        for m in array {
+            if (m > p) {
+                p = m
+                break
+            }
+        }
+        
+        min = p + array.first!
+    } while min <= array.last!
+    
+    print("Результат обработки массива: \(array)")
+   
+}
 
 
 
