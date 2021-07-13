@@ -63,4 +63,31 @@ func homework_2_4(numbers: [Int]) -> [Int] {
 }
 
 
+//Задание 5
+
+func homework_2_5(_ count: Int) -> [Int] {
+    var i = 0
+    var fib = 0
+    var array = [Int]()
+    
+    repeat {
+        if (i < 2) {
+            fib = i
+        }
+        else {
+            fib = array[i - 1] + array[i - 2]
+        }
+        
+        array.append(fib)
+        
+        i += 1
+    } while i < count
+    
+    return array
+}
+
+
+
+
+
 

@@ -9,20 +9,29 @@ import Foundation
 
 
 //Урок 2
+
+// Урок 2. Задание 1
 print ("Задание 1:")
-homework_2_1(chislo: 16) // Урок 2. Задание 1
+homework_2_1(chislo: 16)
 print ("\n")
 
+// Урок 2. Задание 2
 print ("Задание 2:")
-homework_2_2(chislo: 27) // Урок 2. Задание 2
+homework_2_2(chislo: 27)
 print ("\n")
 
-homework_2_3() // Урок 2. Задание 3
+// Урок 2. Задание 3
 print ("Задание 3:")
 print ("Массив: \(homework_2_3())")
 print ("\n")
 
-homework_2_4(numbers: homework_2_3()) // Урок 2. Задание 4
+// Урок 2. Задание 4
 print ("Задание 4:")
 print ("Массив: \(homework_2_4(numbers: homework_2_3()))")
 print ("\n")
+
+// Урок 2. Задание 5
+print ("Задание 5:")
+print ("Массив: \(homework_2_5(50))")
+print ("\n")
+
