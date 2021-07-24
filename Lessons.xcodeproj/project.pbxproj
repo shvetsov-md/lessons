@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C200E8AD26ABED9D009244DC /* homework_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200E8AC26ABED9D009244DC /* homework_4.swift */; };
 		C2217A0B2695E3710059B7D8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A0A2695E3710059B7D8 /* main.swift */; };
 		C2217A182695E5E40059B7D8 /* homework_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217A172695E5E40059B7D8 /* homework_2.swift */; };
 		C295E61626A4237800EE6DD2 /* homework_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295E61526A4237800EE6DD2 /* homework_3.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C200E8AC26ABED9D009244DC /* homework_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_4.swift; sourceTree = "<group>"; };
 		C2217A072695E3710059B7D8 /* Lessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lessons; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2217A0A2695E3710059B7D8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C2217A132695E3AD0059B7D8 /* homework_1_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_1_1.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C200E8AB26ABED83009244DC /* lesson_4 */ = {
+			isa = PBXGroup;
+			children = (
+				C200E8AC26ABED9D009244DC /* homework_4.swift */,
+			);
+			path = lesson_4;
+			sourceTree = "<group>";
+		};
 		C22179FE2695E3700059B7D8 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		C2217A092695E3710059B7D8 /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
+				C200E8AB26ABED83009244DC /* lesson_4 */,
 				C295E61426A4235B00EE6DD2 /* lesson_3 */,
 				C2CADD67269C836F001A5677 /* test */,
 				C2217A162695E5CC0059B7D8 /* lesson_2 */,
@@ -167,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2217A0B2695E3710059B7D8 /* main.swift in Sources */,
+				C200E8AD26ABED9D009244DC /* homework_4.swift in Sources */,
 				C295E61626A4237800EE6DD2 /* homework_3.swift in Sources */,
 				C2217A182695E5E40059B7D8 /* homework_2.swift in Sources */,
 				C2CADD69269C83A1001A5677 /* test_1.swift in Sources */,

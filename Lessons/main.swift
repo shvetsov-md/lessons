@@ -41,6 +41,13 @@ import Foundation
 //print ("\n")
 
 
-
+//
 //Урок 3
-homework_3()
+//homework_3()
+
+
+
+//Урок 4
+homework_4()
+
+
