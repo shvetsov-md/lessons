@@ -125,7 +125,8 @@ var sportCar = SportCar(brand: "Lamborghini", years: "2020", engine: .start, win
 var trunckCar = TruncCar(brand: "Kamaz", years: "2010", engine: .stop, window: .open, maxWeight: 7)
 
 func homework_5() {
-       
+    print("Урок 5:")
+    print("\n")
     print(sportCar)
     sportCar.actionEngine(.stop)
     sportCar.actionWindow(.open)

@@ -54,3 +54,6 @@ import Foundation
 //Урок 5
 homework_5()
 
+//Урок 6
+homework_6()
+
