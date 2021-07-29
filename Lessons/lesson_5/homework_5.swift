@@ -17,8 +17,8 @@ protocol Car: AnyObject {
 }
 
 extension Car {
-    func actionEngine(_actionCars: ActionEngine) {
-        switch _actionCars {
+    func actionEngine(_ actionCars: ActionEngine) {
+        switch actionCars {
         case .start:
             print("Запустить двигатель")
             self .engine = .start
@@ -28,8 +28,8 @@ extension Car {
         }
     }
     
-    func actionWindow(_actionCars: ActionWindows) {
-        switch _actionCars {
+    func actionWindow(_ actionCars: ActionWindows) {
+        switch actionCars {
         case .open:
             self .window = .open
             print("Открыть окно")
@@ -127,13 +127,13 @@ var trunckCar = TruncCar(brand: "Kamaz", years: "2010", engine: .stop, window: .
 func homework_5() {
        
     print(sportCar)
-    sportCar.actionEngine(_actionCars: .stop)
-    sportCar.actionWindow(_actionCars: .open)
+    sportCar.actionEngine(.stop)
+    sportCar.actionWindow(.open)
     print(sportCar)
     print("\n")
     print(trunckCar)
-    trunckCar.actionEngine(_actionCars: .start)
-    trunckCar.actionWindow(_actionCars: .close)
+    trunckCar.actionEngine(.start)
+    trunckCar.actionWindow(.close)
     print(trunckCar)
     print("\n")
 }
